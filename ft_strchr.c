@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:06:28 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:06:29 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:02:07 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,15 +27,3 @@ char	*ft_strchr(char *s, int c)
 	}
 	return (0);
 }
-
-/*
-int	main(void)
-{
-	char	i[] = "hello";
-	char	p[] = "hello";
-
-	printf("%s\n", ft_strchr(p, 111));
-	printf("%s\n", strchr(i, 111));
-	return (0);
-}
-*/

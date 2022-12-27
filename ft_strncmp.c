@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:07:14 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:07:15 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:03:11 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,23 +32,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	q[] = "";
-// 	char	w[] = "12345";
-// 	printf("%d\n", ft_strncmp(q, w, 7));
-
-// 	char	z[] = "";
-// 	char	x[] = "12345";
-// 	printf("%d\n", strncmp(z, x, 7));
-
-// 			char	*s1 = "\0";
-// 			char	*s2 = "\200";
-
-// 			int		i2 = ft_strncmp(s1, s2, 6);
-// 			int		i1 = strncmp(s1, s2, 6);
-// 			printf("%d\n", i2);
-// 			printf("%d\n", i1);
-//    return (0);
-// }

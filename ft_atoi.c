@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 18:58:58 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 18:59:02 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:58:30 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,12 +45,3 @@ int	ft_atoi(const char *str)
 	}
 	return (x * neg);
 }
-/*
-int	main(void)
-{
-	char	x[] = "     ";
-	printf("%d\n", atoi(x));
-	printf("%d\n", ft_atoi(x));
-	return (0);
-}
-*/

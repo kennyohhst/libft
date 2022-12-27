@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:00:52 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:00:53 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:58:56 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,3 @@ int	ft_isascii(int c)
 	else
 		return (0);
 }
-/*
-int	main(void)
-{
-	unsigned char	potata;
-
-	potata = 127;
-	printf("%d", ft_isascii(potata));
-	printf("%d", isascii(potata));
-	return (0);
-}
-*/

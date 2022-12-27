@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:04:30 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:04:31 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:59:18 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,13 +31,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	char	q[] = {'a', 'b', 'c'};
-// 	char	w[] = {'a', '\0', 'd'};
-
-// 	printf("%d\n", ft_memcmp(q, w, 10));
-// 	printf("%d\n", memcmp(q, w, 13));
-// 	return (0);
-// }

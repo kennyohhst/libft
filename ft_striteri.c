@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 16:36:04 by kkalika           #+#    #+#             */
-/*   Updated: 2022/02/12 16:27:54 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:02:13 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-// int	main(void)
-// {
-// 	char *p = "abcd";
-// 	//bla(0 ,p);
-// 	ft_striteri("abcd", &iter);
-// 	return (0);
-// }

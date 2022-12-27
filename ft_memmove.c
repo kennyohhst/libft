@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:05:05 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:05:06 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:00:30 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,39 +15,26 @@
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	char	*dest;
-	char	*sauce;
+	char	*source;
 	size_t	i;
 
 	dest = (char *) dst;
-	sauce = (char *) src;
+	source = (char *) src;
 	i = 0;
 	if (dst == NULL && src == NULL)
 		return (NULL);
-	if (sauce > dest)
+	if (source > dest)
 	{
 		while (i < len)
 		{
-			dest[i] = sauce[i];
+			dest[i] = source[i];
 			i++;
 		}
 	}
 	while (i < len)
 	{
-		dest[len - 1] = sauce[len - 1];
+		dest[len - 1] = source[len - 1];
 		len--;
 	}
 	return (dst = dest);
 }
-/*
-int	main(void)
-{
-	char	q[20] = "1234567";
-	char	x[20] = "1234567";
-
-	ft_memmove(q + 2, q + 3, 3);
-	memmove(x + 2, x + 3, 3);
-	printf("%s\n", q);
-	printf("%s\n", x);
-	return (0);
-}
-*/

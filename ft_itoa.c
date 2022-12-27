@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:02:36 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:02:37 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:59:10 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,15 +55,3 @@ char	*ft_itoa(int c)
 	}
 	return (number);
 }
-
-// int	main(void)
-// {
-// 	int	nb;
-
-// 	nb = -2147483;
-// 	// ft_itoa(nb);
-// 	// printf("%d\n", ft_countdigits(nb));
-// 	printf("%s\n", ft_itoa(nb));
-// 	// system("leaks a.out");
-// 	return(0);
-// }

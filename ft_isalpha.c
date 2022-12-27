@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:00:29 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:00:30 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:58:51 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-/*
-int	main(void)
-{
-	unsigned char	melon;
-
-	melon = 'G';
-	printf("%d\n", isalpha(melon));
-	printf("%d\n", ft_isalpha(melon));
-	return (0);
-}
-*/

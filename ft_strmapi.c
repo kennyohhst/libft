@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 15:25:53 by kkalika           #+#    #+#             */
-/*   Updated: 2022/02/13 15:25:09 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:03:06 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,11 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	nstr[i] = '\0';
 	return (nstr);
 }
-
-// int	main(void)
-// {
-// 	// printf("%c\n", bla(1, 'a'));
-// 	char	*x = "abcd";
-// 	printf("%s\n", ft_strmapi(x, &bla));
-// 	return (0);
-// }

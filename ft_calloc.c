@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 18:59:52 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 18:59:54 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:58:43 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,13 +28,3 @@ void	*ft_calloc(size_t count, size_t size)
 	}
 	return (ptr);
 }
-
-//{
-// 	return (ft_memset(malloc(count * size), 0, count * size)));
-// }
-// int main(void)
-// {
-// 	calloc(2, 20);
-// 	ft_calloc(2, 20);
-// 	return (0);
-// }

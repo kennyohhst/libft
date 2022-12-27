@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/12 14:49:31 by kkalika           #+#    #+#             */
-/*   Updated: 2022/02/19 14:15:19 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:01:56 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ static char	**ft_free(char **str)
 	int	i;
 
 	i = 0;
-	while (str[i] != '\0')
+	while (str[i] != NULL)
 	{
 		free(str[i]);
 		i++;
@@ -28,19 +28,19 @@ static char	**ft_free(char **str)
 
 static size_t	wordlen(char *stringy, char delm)
 {
-	size_t	county;
+	size_t	count;
 	size_t	ai;
 
 	ai = 0;
-	county = 0;
+	count = 0;
 	while (stringy[ai] == delm && stringy[ai] != '\0')
 		ai++;
 	while (stringy[ai] != delm && stringy[ai] != '\0')
 	{
-		county++;
+		count++;
 		ai++;
 	}
-	return (county);
+	return (count);
 }
 
 static size_t	countwords(char *string, char dlm)
@@ -103,22 +103,3 @@ char	**ft_split(char const *s, char c)
 	ft_putwords((char *) s, c, nstr);
 	return (nstr);
 }
-
-// int	main(void)
-// {
-// 	char	*str;
-// 	char	dl;
-// 	str = ".bla.boink.silent.cow.aword.hi.";
-// 	dl = '.';
-// 	char	**stringbla = ft_split(str, dl);
-// 	printf("%s\n", stringbla[0]);
-//     // printf("%s\n", stringbla[1]);
-//     // printf("%s\n", stringbla[2]);
-//     // printf("%s\n", stringbla[3]);
-//     // printf("%s\n", stringbla[4]);
-//     // printf("%s\n", stringbla[5]);
-// 	// printf("%zu\n", countwords(str, dl));
-// 	// printf("%zu\n", wordlen(str, dl));
-//     system("leaks a.out");
-// 	return (0);
-// }

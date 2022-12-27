@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:02:16 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:02:17 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:59:03 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,3 @@ int	ft_isprint(int c)
 	else
 		return (0);
 }
-/*
-int	main(void)
-{
-	unsigned char	patot;
-
-	patot = ' ';
-	printf("%d", isprint(patot));
-	printf("%d", ft_isprint(patot));
-	return (0);
-}
-*/

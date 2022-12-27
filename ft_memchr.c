@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:02:52 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:02:53 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:59:14 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-/*
-int	main(void)
-{
-	char	z[] = "pointing";
-
-	printf("%p\n", ft_memchr(z, 111, 10));
-	printf("%p\n", memchr(z, 111, 10));
-	return (0);
-}
-*/

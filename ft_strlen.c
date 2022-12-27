@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:07:05 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:07:06 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:02:59 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,12 +23,3 @@ size_t	ft_strlen(const char *s)
 	}
 	return (i);
 }
-
-// int	main(void)
-// {
-// 	char	plop[] = "high";
-
-// 	printf("%zu", strlen(plop));
-// 	printf("%lu", ft_strlen(plop));
-// 	return (0);
-// }

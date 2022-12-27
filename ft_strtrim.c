@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:07:31 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:07:32 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:03:48 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,16 +33,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	}
 	return (ft_substr(str, 0, i + 1));
 }
-
-// int	main(void)
-// {
-// 	char	*str;
-// 	char	*trim;
-
-// 	str = " \t \n \t ";
-// 	trim = " \t\n";
-//     // nstr = "423 4 123 56";
-
-// 	printf("%s\n", ft_strtrim(str, trim));
-// 	return (0);
-// }

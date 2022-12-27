@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:07:57 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:07:58 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:04:22 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,3 @@ int	ft_toupper(int c)
 	else
 		return (c - 32);
 }
-/*
-int	main(void)
-{
-	printf("%c\n", ft_toupper('a'));
-	printf("%c\n", toupper('a'));
-	return (0);
-}
-*/

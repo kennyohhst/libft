@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 18:11:35 by kkalika           #+#    #+#             */
-/*   Updated: 2022/02/19 14:16:02 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 15:01:25 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-
-// int	main(void)
-// {
-// 	ft_putstr_fd("boink", 1);
-// 	return (0);
-// }

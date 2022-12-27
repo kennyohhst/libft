@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 19:00:01 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 19:00:02 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:58:47 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,3 @@ int	ft_isalnum(int c)
 		return (0);
 	}
 }
-
-// int	main(void)
-// {
-// 	printf("%d\n", ft_isalnum('@'));
-// 	printf("%d\n", isalnum(' '));
-// 	return (0);
-// }

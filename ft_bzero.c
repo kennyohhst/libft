@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kkalika <kkalika@student.42.fr>            +#+  +:+       +#+        */
+/*   By: code <code@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/21 18:59:29 by kkalika           #+#    #+#             */
-/*   Updated: 2022/01/21 18:59:31 by kkalika          ###   ########.fr       */
+/*   Updated: 2022/12/27 14:58:38 by code             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	char	boink[] = "boinky";
-	int	i = 0;
-
-	printf("%s\n", boink);
-	ft_bzero(boink, 2);
-	printf("%d\n", boink[i]);
-	return (0);
-}
-*/
